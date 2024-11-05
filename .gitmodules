@@ -1,0 +1,6 @@
+[submodule "depend/freeglut"]
+	path = depend/freeglut
+	url = git@github.com:freeglut/freeglut.git
+[submodule "depend/PainterEngine"]
+	path = depend/PainterEngine
+	url = git@github.com:matrixcascade/PainterEngine.git
