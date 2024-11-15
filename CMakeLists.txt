@@ -69,7 +69,7 @@ if (BUILD_TEST)
 	add_definitions(-DGLOBAL_LOG_LEVEL=1)
 
 	message(STATUS "build test modules")
-    add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/test/打地鼠 ${CMAKE_BINARY_DIR}/打地鼠)
+    add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/test/贪食蛇 ${CMAKE_BINARY_DIR}/test)
 endif()
 
 # 添加必要的安装动态库文件
