@@ -12,10 +12,10 @@ PX_OBJECT_EVENT_FUNCTION(OnKeydown)
 	px_byte key = PX_Object_Event_GetKeyDown(e);
 	switch(key)
 	{
-	case PX_VK_LEFT: { incx = -1, incy = 0; } break;
-	case PX_VK_RIGHT: { incx = 1, incy = 0; } break;
-	case PX_VK_UP: { incx = 0, incy = -1; } break;
-	case PX_VK_DOWN: { incx = 0, incy = 1; } break;
+	case 100: { incx = -1, incy = 0; } break;
+	case 102: { incx = 1, incy = 0; } break;
+	case 101: { incx = 0, incy = -1; } break;
+	case 103: { incx = 0, incy = 1; } break;
 	default:break;
 	}
 }
